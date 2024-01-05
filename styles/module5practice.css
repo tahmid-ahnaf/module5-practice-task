@@ -5,6 +5,10 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+
+section{
+    margin-top: 50px;
+}
 .header {
   width: 100%;
   background: url(/images/banner/banner1.png) no-repeat center / cover;
@@ -62,14 +66,12 @@
   gap: 100px;
   width: 70%;
   margin: 10px auto;
-
 }
 
 .failure-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .failure-item-container {
@@ -93,10 +95,49 @@
   font-weight: 700;
 }
 
-.failure-description{
+.failure-description {
   color: var(--Dark-02, #444343);
   font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
   margin: 12px 0px;
+}
+
+.my-plans-title {
+  text-align: center;
+}
+
+.my-plans{
+    width: 70%;
+    margin: 0 auto;
+}
+.plans-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.plan-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.plan-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.my-plans-title {
+  color: var(--Dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.plan-description {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
 }
