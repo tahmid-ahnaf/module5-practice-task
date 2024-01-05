@@ -143,15 +143,15 @@ section {
 }
 
 .call-now {
+  border-radius: 5px;
   display: flex;
-  border: 2px solid red;
   flex-direction: column;
   padding-left: 50px;
   justify-content: center;
-  width: 70%;
-  height: 300px;
+  width: 62%;
+  height: 280px;
   margin: 100px auto;
-  background: url(/images/gradient2.png),url(/images/watch.png) no-repeat;
+  background: url(/images/gradient3.png), url(/images/watch.png) no-repeat;
 }
 
 .btn-secondary {
